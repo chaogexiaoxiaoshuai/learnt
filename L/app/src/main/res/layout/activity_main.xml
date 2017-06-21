@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chaogexiaoxiaoshuai.l.MainActivity">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#BFBFBF"
+        android:layout_marginTop="200dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:src="@drawable/runanliangzhumo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/runanliangzhumo"
+            />
+
+        <TextView
+            android:text="花湖"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tianheshantest"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:text="(四川)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/tianheshantest"
+            android:layout_marginTop="13dp" />
+        <TextView
+            android:text="连绵青山花正开"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="32dp" />
+        <TextView
+            android:text="适合类型：自然爱好者"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

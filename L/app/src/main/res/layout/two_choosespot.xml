@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chaogexiaoxiaoshuai.l.MainActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button
+           android:id="@+id/button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="back" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="选择景点"
+           android:textSize="25dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="50dp"/>
+
+   </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为您智能生成以下景点"
+        android:layout_marginLeft="120dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="15dp"
+        android:background="#000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tianheshan"
+            />
+
+        <TextView
+           android:text="花湖"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tianheshantest"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:text="(四川)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/tianheshantest"
+            android:layout_marginTop="13dp" />
+        <TextView
+            android:text="连绵青山花正开"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="32dp" />
+        <TextView
+            android:text="适合类型：自然爱好者"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="+" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="#BFBFBF"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/runan"
+            />
+
+        <TextView
+            android:text="乐山大佛"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/runantest"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:text="(四川)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/runantest"
+            android:layout_marginTop="18dp" />
+        <TextView
+            android:text="大肚能容笑口开"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="37dp" />
+        <TextView
+            android:text="适合类型：历史名胜爱好者"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="65dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="+" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="#BFBFBF"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sanya"
+            />
+
+        <TextView
+            android:text="黄河第一湾"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/sanyatest"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:text="(四川)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/sanyatest"
+            android:layout_marginTop="18dp" />
+        <TextView
+            android:text="宇宙中庄严幻影"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp" />
+        <TextView
+            android:text="适合类型：奇观爱好者"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="65dp" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="+" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="#BFBFBF"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/gulang"
+            />
+
+        <TextView
+            android:text="塔公草原"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/gulangtest"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:text="(四川)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/gulangtest"
+            android:layout_marginTop="18dp" />
+        <TextView
+            android:text="第二香巴拉与你"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp" />
+        <TextView
+            android:text="适合类型：自然爱好者"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="65dp" />
+
+        <Button
+            android:id="@+id/spot_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="+" />
+
+
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FF9900"/>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="#BFBFBF"/>
+</LinearLayout>
